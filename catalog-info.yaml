@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testdoc2"
+  description: "testdoc2"
+  annotations:
+    github.com/project-slug: bgregg1234/doctest2
+    backstage.io/techdocs-ref: url:https://github.com/bgregg1234/doctest2
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "bgregg1234"
